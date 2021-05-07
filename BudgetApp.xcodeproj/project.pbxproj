@@ -11,6 +11,7 @@
 		116131252645B9C600F50102 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116131242645B9C600F50102 /* ContentView.swift */; };
 		116131272645B9C700F50102 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 116131262645B9C700F50102 /* Assets.xcassets */; };
 		1161312A2645B9C700F50102 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 116131292645B9C700F50102 /* Preview Assets.xcassets */; };
+		116131322645C5F800F50102 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116131312645C5F800F50102 /* AddView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		116131262645B9C700F50102 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		116131292645B9C700F50102 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1161312B2645B9C700F50102 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		116131312645C5F800F50102 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +54,9 @@
 		116131212645B9C600F50102 /* BudgetApp */ = {
 			isa = PBXGroup;
 			children = (
-				116131222645B9C600F50102 /* BudgetAppApp.swift */,
+				116131312645C5F800F50102 /* AddView.swift */,
 				116131242645B9C600F50102 /* ContentView.swift */,
+				116131222645B9C600F50102 /* BudgetAppApp.swift */,
 				116131262645B9C700F50102 /* Assets.xcassets */,
 				1161312B2645B9C700F50102 /* Info.plist */,
 				116131282645B9C700F50102 /* Preview Content */,
@@ -140,6 +143,7 @@
 			files = (
 				116131252645B9C600F50102 /* ContentView.swift in Sources */,
 				116131232645B9C600F50102 /* BudgetAppApp.swift in Sources */,
+				116131322645C5F800F50102 /* AddView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
